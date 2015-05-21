@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" android:clickable="true">
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="#ffffff">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textStyle="bold"
+                android:textColor="#122e4d"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="20dp"
+                android:textSize="18dp"
+                android:textIsSelectable="false"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:id="@+id/yearsId"
+                    android:layout_gravity="center"
+                    android:entries="@array/years_arrays"
+                    android:prompt="@string/years_prompt"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="years"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:id="@+id/monthsId"
+                    android:layout_gravity="center"
+                    android:entries="@array/months_arrays"
+                    android:prompt="@string/months_prompt"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="months"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:id="@+id/weeksId"
+                    android:layout_gravity="center"
+                    android:entries="@array/weeks_arrays"
+                    android:prompt="@string/weeks_prompt"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="weeks"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textStyle="bold"
+                android:textColor="#122e4d"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="20dp"
+                android:textSize="18dp"
+                android:textIsSelectable="false"
+                />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:id="@+id/weightId"
+                    android:inputType="numberDecimal|none"
+                    android:digits="0123456789."
+                    android:hint="3.5"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kg"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:textStyle="bold"
+                android:textColor="#122e4d"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="20dp"
+                android:textSize="18dp"
+                android:textIsSelectable="false"
+                />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:id="@+id/heightId"
+                    android:inputType="numberDecimal|none"
+                    android:digits="0123456789."
+                    android:hint="100"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cm"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Head Circumference"
+                android:textStyle="bold"
+                android:textColor="#122e4d"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="20dp"
+                android:textSize="18dp"
+                android:textIsSelectable="false"
+                />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:id="@+id/headCircumferenceId"
+                    android:inputType="numberDecimal|none"
+                    android:digits="0123456789."
+                    android:hint="40"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cm"
+                    android:layout_gravity="center"
+                    android:layout_weight="10"
+                    android:textColor="#122e4d"
+                    android:textIsSelectable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_marginBottom="10dp">
+
+
+        </LinearLayout>
+
+        <Button
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:id="@+id/submitButton"
+                android:enabled="false"
+                android:textColor="#ffffff" android:textStyle="bold" android:background="@drawable/submit_button"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+

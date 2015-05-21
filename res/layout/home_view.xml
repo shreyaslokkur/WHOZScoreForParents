@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff">-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="#ffffff"
+                  android:weightSum="20">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Select Sex"
+                android:textStyle="bold"
+                android:textColor="#122e4d"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="20dp"
+                android:textSize="24dp"
+                android:textIsSelectable="false"
+                android:layout_weight="3"/>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:background="#ffffff"
+                      android:layout_weight="12">
+            <ImageButton android:background="@drawable/boy_button_image"
+                         android:contentDescription="Boy"
+                         android:layout_height="match_parent"
+                         android:layout_width="fill_parent"
+                         android:layout_weight="10"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginTop="5dp"
+                         android:layout_marginBottom="10dp"
+                         android:id="@+id/boy_image"
+                         android:onClick="onBoyImageClickHandler"/>
+            <ImageButton android:background="@drawable/girl_button_image"
+                         android:contentDescription="Girl"
+                         android:layout_height="match_parent"
+                         android:layout_width="fill_parent"
+                         android:layout_weight="10"
+                         android:layout_marginRight="20dp"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginTop="10dp"
+                         android:layout_marginBottom="10dp"
+                         android:id="@+id/girl_image"
+                         android:onClick="onGirlImageClickHandler"/>
+
+        </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:background="#ffffff"
+                  android:layout_weight="5"/>
+
+
+
+    </LinearLayout>
+
+<!--</ScrollView>-->

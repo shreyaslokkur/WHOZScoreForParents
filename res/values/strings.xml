@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WHO ZScore</string>
+
+    <string name="years_prompt">Choose number of years</string>
+    <string name="months_prompt">Choose number of months</string>
+    <string name="weeks_prompt">Choose number of weeks</string>
+
+
+    <string-array name="weeks_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="months_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="years_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="greater_than_three">Greater than 3 ZScore.</string>
+    <string name="between_two_and_three">Between 2 and 3 ZScore.</string>
+    <string name="between_one_and_two">Between 1 and 2 ZScore.</string>
+    <string name="between_zero_and_two">Between 0 and 2 ZScore.</string>
+    <string name="between_zero_and_one">Between 0 and 1 ZScore.</string>
+    <string name="between_minus_one_and_zero">Between -1 and 0 ZScore.</string>
+    <string name="between_minus_two_and_zero">Between -2 and 0 ZScore.</string>
+    <string name="between_minus_two_and_minus_one">Between -1 and -2 ZScore.</string>
+    <string name="between_minus_three_and_minus_two">Between -3 and -2 ZScore.</string>
+    <string name="lesser_than_minus_three">Lesser than -3 ZScore.</string>
+
+
+    <string name="normal_parameters">Normal</string>
+
+    <string name="weight_for_age_less_than_minus_three">Severe Underweight</string>
+    <string name="weight_for_age_less_than_minus_two">Moderate Underweight</string>
+    <string name="weight_for_age_more_than_two">Moderate Overweight</string>
+    <string name="weight_for_age_more_than_three">Severe Overweight</string>
+
+    <string name="height_for_age_less_than_minus_three">Severe Stunting</string>
+    <string name="height_for_age_less_than_minus_two">Moderate Stunting</string>
+    <string name="height_for_age_more_than_two">Unavailable</string>
+    <string name="height_for_age_more_than_three">Unavailable</string>
+
+    <string name="weight_for_height_less_than_minus_three">Severe Wasting</string>
+    <string name="weight_for_height_less_than_minus_two">Moderate Wasting</string>
+    <string name="weight_for_height_more_than_two">Unavailable</string>
+    <string name="weight_for_height_more_than_three">Unavailable</string>
+
+
+
+</resources>
